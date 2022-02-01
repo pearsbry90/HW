@@ -10,6 +10,25 @@ header {
     background-color: rgb(8, 90, 243);
     text-align: center;
     padding: .75rem 0;
+    border-bottom: solid 1px whitesmoke;
+    box-shadow: 
+    0 4px 8px 0 white,
+    0 6px 20px 0 yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+header a {
+    color: white;
+    background-color: red;
+    border: solid 1px gray;
+    border-radius: 3px;
+    padding: .25rem .5rem;
+    margin-right: .5rem;
+    line-height: 1.5rem;
+    text-decoration: none;
 }
 
 header a:hover, form button:hover {
@@ -21,7 +40,7 @@ header a:hover, form button:hover {
     margin: auto;
     padding: 1.5rem;
     background-color: white;
-    border: solid 1px gray;
+    border: solid 1px whitesmoke;
     border-radius: 5px;
     box-shadow: 
         0 4px 8px 0 white,
