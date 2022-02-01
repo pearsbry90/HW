@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+header a:hoover {
+    cursor: pointer;
+}
+footer {
+    margin-top: .75rem;
+    border-top: solid 1px gray;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+footer img {
+    margin: 0 .5rem;
+}
+
+footer img:hoover {
+    cursor: pointer;
+}
