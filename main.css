@@ -1,28 +1,65 @@
 body {
     background-color: black;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    height: 100vh;
 }
 
 header {
-    background-color: cornflowerblue;
+    background-color: rgb(8, 90, 243);
     text-align: center;
     padding: .75rem 0;
 }
 
-header a:hoover {
+header a:hover, form button:hover {
+    background-color: red;
     cursor: pointer;
 }
+
+.container {
+    margin: auto;
+    padding: 1.5rem;
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 5px;
+    box-shadow: 
+        0 4px 8px 0 white,
+        0 6px 20px yellow;
+}
+
+.container > h1 {
+    margin: 0 0 .5rem
+}
+
+form input, form button {
+    width: 100%;
+    min-width: 300px;
+    box-sizing: border-box;
+    margin: .75rem 0;
+    padding: .25rem 0;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+form button {
+    color: white;
+    background-color: blue;
+}
+
 footer {
     margin-top: .75rem;
     border-top: solid 1px gray;
     padding-top: 1rem;
-    text-align: left;
+    text-align: center;
 }
 
 footer img {
     margin: 0 .5rem;
 }
 
-footer img:hoover {
+footer img:hover {
     cursor: pointer;
 }
